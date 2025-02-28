@@ -1,0 +1,1 @@
+SELECT id, hashed_password FROM users WHERE email = %s;

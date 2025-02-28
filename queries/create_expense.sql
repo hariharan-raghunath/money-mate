@@ -1,0 +1,1 @@
+INSERT INTO expenses (user_id, amount, category, description, date) VALUES (%s, %s, %s, %s, %s) RETURNING id;

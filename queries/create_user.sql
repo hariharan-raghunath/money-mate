@@ -1,0 +1,1 @@
+INSERT INTO users (username, email, hashed_password, initial_balance) VALUES (%s, %s, %s, %s) RETURNING id;
